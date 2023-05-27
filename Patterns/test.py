@@ -79,3 +79,5 @@ class LinFactory(Factory):
 
 factory = WinFactory()
 print(factory.create_input())
+print(factory.create_checkbox())
+print(factory.create_button())
